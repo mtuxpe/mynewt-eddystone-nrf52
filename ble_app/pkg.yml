@@ -1,0 +1,16 @@
+pkg.name: apps/ble_app
+pkg.type: app
+
+pkg.deps:
+    - "@apache-mynewt-core/kernel/os"
+    - "@apache-mynewt-core/sys/sysinit"
+    - "@apache-mynewt-core/mgmt/newtmgr"
+    - "@apache-mynewt-core/mgmt/newtmgr/transport/ble"
+    - "@apache-mynewt-core/net/nimble/controller"
+    - "@apache-mynewt-core/net/nimble/host"
+    - "@apache-mynewt-core/net/nimble/host/services/gap"
+    - "@apache-mynewt-core/net/nimble/host/services/gatt"
+    - "@apache-mynewt-core/net/nimble/host/store/ram"
+    - "@apache-mynewt-core/net/nimble/transport/ram"
+    - "@apache-mynewt-core/sys/console/full"
+    - "@apache-mynewt-core/sys/id"
